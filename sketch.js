@@ -26,7 +26,7 @@ function setup() {
 	board3.shapeColor=("red");
 
 	packageSprite=createSprite(width/2, 80, 10,10);
-	packageSprite.addImage(packageIMG)
+	packageSprite.addImage(packageIMG);
 	packageSprite.scale=0.2
 
 	helicopterSprite=createSprite(width/2, 200, 10,10);
