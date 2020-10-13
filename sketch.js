@@ -41,10 +41,10 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0,isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.4,isStatic:true});
 	World.add(world, packageBody);
 	
-	board1Body = Bodies.rectangle(width/2,650,200,20,{isStatic:true});
+	board1Body = Bodies.rectangle(width/2,635,200,20,{isStatic:true});
 	World.add(world,board1Body);
 
 	board2Body = Bodies.rectangle(300,610,20,100,{isStatic:true});
